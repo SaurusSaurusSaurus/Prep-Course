@@ -7,7 +7,7 @@ const nuevaString = "Hola mundos :)";
 const nuevoNum = 1;
 
 // Crea una variable booleana:
-const nuevoBool = True;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -44,7 +44,7 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
-  return a - b;
+  return x - y;
 
 }
 
@@ -81,9 +81,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.lenght === str2.lenght;
+  return str1.length === str2.length;
   
-
 }
 
 function menosQueNoventa(num) {
